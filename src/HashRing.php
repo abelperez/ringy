@@ -25,7 +25,7 @@
  * // add server nodes to ring
  * $ring->addNodes(array("1.2.3.4:11211", "5.6.7.8:11211", "9.8.7.6:11211"));
  * 
- * // get server node location for the resource "hello world"
+ * // get server node location for the specified resource
  * $node = $ring->getNode("info that I need to store in a distributed cache");
  * 
  * echo "found resource in node: $node";
